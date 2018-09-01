@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:background="#e9e7e7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<FrameLayout
+        android:background="#FFF"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="#FFF"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/fragment2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="#FFF"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/fragment3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="#FFF"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/fragment4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="#FFF"
+        android:id="@+id/fragment5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </FrameLayout>
+    </LinearLayout>
+</ScrollView>
